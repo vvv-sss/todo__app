@@ -1,0 +1,45 @@
+.user-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 3rem;
+
+    .user-info-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+                align-items: center;
+
+        p {
+            color: $color-blue-faded;
+        }
+    
+        img {
+            position: relative;
+            left: -0.5rem;
+            width: 3rem;
+        }
+    }
+
+    button {
+        padding: 0 1rem;
+        border: 1px solid $color-blue-faded;
+        border-radius: 10rem;
+        background-color: transparent;
+        color: $color-blue-faded;
+        cursor: pointer;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+
+        &:hover {
+            border: 1px solid $color-white;
+            color: $color-white;
+        }
+    }
+}

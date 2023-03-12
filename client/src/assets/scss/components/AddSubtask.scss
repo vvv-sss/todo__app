@@ -1,0 +1,82 @@
+.add-subtask {
+
+    .add-checkbox-btn {
+        padding: 0.3rem 0.5rem;
+        border: 1px solid $color-dark-blue-text;
+        border-radius: 10rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        background-color: transparent;
+        color: $color-dark-blue-text;
+        font-weight: 500;
+        cursor: pointer;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: $color-dark-blue-bg;
+            color: $color-white;
+        }
+    }
+
+    .add-checkbox-title-container {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+
+        input {
+            padding-bottom: 0;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid $color-dark-blue-text;
+            background-color: transparent;
+        }
+
+        .add-checkbox-title-btn {
+            display: inline-block;
+            width: 2.4rem;
+            height: 2.4rem;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            -webkit-animation: add-subtask-title-btn 1s ease-in-out infinite;
+                    animation: add-subtask-title-btn 1s ease-in-out infinite;
+
+            img {
+                filter: $color-blue-filter;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes add-subtask-title-btn {
+    0%{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+    100%{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}
+@keyframes add-subtask-title-btn {
+    0%{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+    100%{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+}

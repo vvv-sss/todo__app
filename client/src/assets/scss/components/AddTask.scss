@@ -1,0 +1,12 @@
+.add-task {
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    background-color: $color-sand;
+    color: $color-dark-blue-text;
+
+    .add-task__btn-container {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+}

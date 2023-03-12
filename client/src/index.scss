@@ -1,0 +1,49 @@
+// ___Fonts__________________________________________________________________________________________________________
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// ___CSS Reset______________________________________________________________________________________________________
+@import './assets/scss/css-reset.scss';
+
+// ___Variables______________________________________________________________________________________________________
+@import './assets/scss/variables.scss';
+
+// __Global Styles___________________________________________________________________________________________________
+@import './assets/scss/global-styles.scss';
+
+// ___Components_____________________________________________________________________________________________________
+@import './assets/scss/components/Auth.scss';
+
+@import './assets/scss/components/Header.scss';
+@import './assets/scss/components/UserInfo.scss';
+@import './assets/scss/components/Greeting.scss';
+@import './assets/scss/components/NavBar.scss';
+
+@import './assets/scss/components/Tasks.scss';
+@import './assets/scss/components/TaskView.scss';
+@import './assets/scss/components/GroupSelect.scss';
+@import './assets/scss/components/TaskCard.scss';
+@import './assets/scss/components/AddTask.scss';
+@import './assets/scss/components/EditTask.scss';
+@import './assets/scss/components/Subtasks.scss';
+@import './assets/scss/components/AddSubtask.scss';
+
+@import './assets/scss/components/buttons/ShowBtn.scss';
+@import './assets/scss/components/buttons/HideBtn.scss';
+@import './assets/scss/components/buttons/EditBtn.scss';
+@import './assets/scss/components/buttons/CompleteBtn.scss';
+@import './assets/scss/components/buttons/RemoveBtn.scss';
+@import './assets/scss/components/buttons/RemoveTaskBtn.scss';
+
+@import './assets/scss/components/form/TaskTitleInput.scss';
+@import './assets/scss/components/form/DescriptionInput.scss';
+@import './assets/scss/components/form/GroupTitleInput.scss';
+@import './assets/scss/components/form/SubmitBtn.scss';
+@import './assets/scss/components/form/RemoveTask.scss';
+@import './assets/scss/components/form/RemoveGroup.scss';
+
+@import './assets/scss/components/Groups.scss';
+@import './assets/scss/components/GroupCard.scss';
+@import './assets/scss/components/GroupView.scss';
+@import './assets/scss/components/AddGroup.scss';
+@import './assets/scss/components/EditGroup.scss';
+

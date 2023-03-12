@@ -1,0 +1,12 @@
+.groups {
+
+    .no-groups {
+        @include no-list;
+        background-color: $color-white;
+    }
+
+    .groups-list {
+        padding: 0;
+        color: $color-dark-blue-text;
+    }
+}

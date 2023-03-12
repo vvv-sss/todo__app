@@ -1,0 +1,45 @@
+.edit-task {
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: $color-sand;
+    color: $color-dark-blue-text;
+
+    .edit-task__btn-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    #edit-icon {
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        width: 2rem;
+        -webkit-filter: $color-blue-filter;
+                filter: $color-blue-filter;
+        opacity: 0.7;
+    }
+
+    #edit-task__add-checkbox-btn {
+        padding: 0.25rem 0.5rem;
+        border: 1px solid $color-dark-blue-text;
+        border-radius: 10rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        color: $color-dark-blue-text;
+        font-weight: 500;
+        cursor: pointer;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: $color-dark-blue-bg;
+            color: $color-white;
+        }
+    }
+}

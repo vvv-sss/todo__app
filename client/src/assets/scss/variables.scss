@@ -1,0 +1,80 @@
+// ___Colors_________________________________________________________________________________________________________
+$color-white: white;
+
+$color-blue: #172640;
+$color-light-blue: #5E8BFF;
+$color-blue-faded: #58647B;
+$color-dark-blue-bg: #111C2F;
+$color-dark-blue-text: #002034;
+
+$color-aqua: #9DECFF;
+$color-sand: #FEF970;
+
+$color-blue-filter: brightness(0) saturate(100%) invert(8%) sepia(67%) saturate(1367%) hue-rotate(195deg) brightness(95%) contrast(88%);
+
+// ___Typography______________________________________________________________________________________________________
+$font-size-XL: 4rem;
+
+// ___Mixins__________________________________________________________________________________________________________
+
+@mixin input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+@mixin title-input {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+@mixin btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    gap: 0.5rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    span {
+        position: relative;
+        top: 0.2rem;
+        display: block;
+        color: $color-blue;
+        font-size: 0.85rem;
+    }
+
+    img {
+        width: 2.7rem;
+        height: 2.7rem;
+        -webkit-filter: $color-blue-filter;
+                filter: $color-blue-filter;
+    }
+}
+
+@mixin no-list {
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: $color-sand;
+    color: $color-dark-blue-text;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,20 @@
+.remove-btn {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid $color-dark-blue-text;
+    border-radius: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    background-color: transparent;
+    color: $color-dark-blue-text;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+
+    &:hover {
+        border: 1px solid $color-light-blue;
+        background-color: $color-light-blue;
+        color: $color-white;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,37 @@
+.remove-task {
+
+    .remove-task__msg {
+        display: block;
+        margin-top: 1rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    .remove-task__btn-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+
+        button {
+            width: 3.5rem;
+            padding: 0.2rem 0.5rem;
+            border: 1px solid $color-dark-blue-text;
+            border-radius: 10rem;
+            background-color: transparent;
+            color: $color-dark-blue-text;
+            cursor: pointer;
+            -webkit-transition: 0.2s;
+            -o-transition: 0.2s;
+            transition: 0.2s;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+}
