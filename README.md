@@ -32,6 +32,7 @@ The main features of the application include:
 
     -   Install PostgreSQL and create a new database.
     - Go to /server/sequelize/congig/congig.json and enter your PostgreSQL credential (username, password, databese)
+    - Got to /server/sequelize/ in your terminal and run the code `sequelize db:migrate`
 5.  Starting the server:
     
     -   In the root directory of the project, run `npm run server` to run the server and `npm run client` to run the client.
